@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+	<title>TOP SPEC RENTALS | Mercedes-Benz</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav>
+    <div class="logo" id="logo-button" href="index.html">TOP SPEC RENTALS</div>   
+   <ul id="nav-menu">
+    <li class="has-panel">
+        <a href="#" class="nav-item-link">Vehicles</a>
+        <div class="nav-panel">
+            <div class="panel-column">
+                <span class="column-title">By Make</span>
+                <ul class="panel-list">
+                    <li><a href="Mercedes-Benz.html">Mercedes-Benz</a></li>
+                    <li><a href="#">Lamborghini</a></li>
+                    <li><a href="#">Rolls-Royce</a></li>
+					<li><a href="#">Land Rover</a></li>
+					<li><a href="#">Cadillac</a></li>
+					<li><a href="#">Porsche</a></li>
+                    <li><a href="#">Ferrari</a></li>
+					<li><a href="#">Audi</a></li>
+                </ul>
+            </div>
+
+            <div class="panel-divider"></div> 
+
+            <div class="panel-column">
+                <span class="column-title">By Style</span>
+                <ul class="panel-list">
+					<li><a href="#">Cabriolet</a></li>
+					<li><a href="#">Supercar</a></li>
+                    <li><a href="#">Coupe</a></li>
+                    <li><a href="sedans.html">Sedan</a></li>
+					<li><a href="#">SUV</a></li>
+                </ul>
+            </div>
+
+            <div class="panel-divider"></div> 
+
+            <div class="panel-column">
+                <span class="column-title"><a href="#" class="title-link">COMPARE</a></span>
+                </div>
+        </div>
+    </li>
+        <li class="has-panel">
+            <a href="#" class="nav-item-link">Services</a>
+            <div class="nav-panel">
+                <div class="panel-column">
+                    <ul class="panel-list no-title">
+                        <li><a href="cservices.html">Chauffeur Services</a></li>
+                        <li><a href="#">Wedding Services</a></li>
+                        <li><a href="#">Prom Rental</a></li>
+                    </ul>
+                </div>
+                <div class="panel-divider"></div> 
+                <div class="panel-column"></div>
+            </div>
+        </li>
+        <li><a href="#">Corporate Rentals</a></li>
+        <li><a href="media-blog.html">Media &amp; Blog</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+
+        <li class="menu-text-only"><a href="#">SEARCH</a></li>
+        <li class="menu-text-only"><a href="#">BAG</a></li>
+
+        <li class="nav-search">
+            <div class="search-container">
+                <input type="text" placeholder="SEARCH">
+            </div>
+        </li>
+        <li class="nav-bag">
+            <a href="#"><img src="images/bag-icon.png" alt="cart" class="nav-icon"></a>
+        </li>
+    </ul>
+    <div id="mobile-vehicles-panel" class="mobile-slide-overlay">
+    <div class="back-btn" onclick="closeSubPanel()">BACK</div>
+    <div class="mobile-slide-content">
+        <span class="m-title">BY MAKE</span>
+        <ul class="m-list">
+			<li><a href="Mercedes-Benz.html">Mercedes-Benz</a></li>
+            <li><a href="#">Lamborghini</a></li>
+            <li><a href="#">Rolls-Royce</a></li>
+			<li><a href="#">Land Rover</a></li>
+			<li><a href="#">Cadillac</a></li>
+			<li><a href="#">Porsche</a></li>
+            <li><a href="#">Ferrari</a></li>
+			<li><a href="#">Audi</a></li>
+        </ul>
+        <span class="m-title" style="margin-top:40px">BY STYLE</span>
+        <ul class="m-list">
+			<li><a href="#">Cabriolet</a></li>
+			<li><a href="#">Supercar</a></li>
+            <li><a href="#">Coupe</a></li>
+            <li><a href="sedans.html">Sedan</a></li>
+            <li><a href="#">SUV</a></li>
+
+        </ul>
+    </div>
+</div>
+<div id="mobile-services-panel" class="mobile-slide-overlay">
+    <div class="back-btn" onclick="closeSubPanel()">BACK</div>
+    <div class="mobile-slide-content">
+        <ul class="m-list">
+            <li><a href="cservices.html">Chauffeur Services</a></li>
+            <li><a href="#">Wedding Services</a></li>
+            <li><a href="#">Prom Rental</a></li>
+        </ul>
+    </div>
+</div>
+</nav>
+	
+	
+<header class="video-hero">
+    <video autoplay muted loop playsinline src="Vidoes/MaybachS680.mp4"></video>
+</header>
+
+<main class="content-wrapper">
+    <h2>Mercedes-Benz</h2>
+
+    <div class="carousel-container">
+        <button class="arrow prev" onclick="moveSlide(-1)">❮</button>
+        <div class="carousel-window">
+            <div class="carousel-track">
+                <img src="Images/G63.jpg" class="slide" alt="AMG G 63">
+                <img src="Images/GLS63.jpg" class="slide" alt="AMG GLS 63">
+                <img src="Images/GLS600.jpg" class="slide" alt="Maybach GLS 600">
+                <img src="Images/GT63.jpg" class="slide" alt="AMG GT 63 S E Performance">
+                <img src="Images/S63.jpg" class="slide" alt="AMG S 63">
+				<img src="Images/SL63.jpg" class="slide" alt="AMG LS 63 S E Performance">
+           </div>
+        </div>
+        <button class="arrow next" onclick="moveSlide(1)">❯</button>
+    </div>
+
+    <div class="description-scroll">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta massa ut massa convallis, et vestibulum nulla finibus. Sed sed dictum magna. Praesent aliquet sodales nulla. Nulla pellentesque nibh risus, ullamcorper tincidunt dolor accumsan nec. Etiam accumsan non eros eu mollis. Cras dolor dui, tempus a arcu in, euismod varius est. Aenean ligula orci, ultricies tristique dignissim semper, euismod a arcu. Nulla malesuada sit amet nisi eu dapibus. In hac habitasse platea dictumst. Cras ullamcorper pretium ligula. Donec eget luctus erat. Fusce posuere tortor sit amet pretium bibendum. Mauris iaculis id tellus eget tincidunt. Proin consectetur euismod luctus. Pellentesque a tortor rutrum, dapibus ligula non, posuere metus. Aliquam erat volutpat. Sed hendrerit felis eget neque dignissim, non sodales felis euismod. Morbi molestie quis lacus id scelerisque. Curabitur venenatis porttitor diam, tincidunt pellentesque nisl volutpat sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque lacinia non tellus in tincidunt. Nam id leo efficitur neque vehicula pulvinar. Suspendisse malesuada felis et turpis pellentesque, ac suscipit urna pellentesque. Aenean vitae tempor nunc. Nulla interdum, purus ac congue tristique, mi erat tristique massa, in efficitur ex urna in sapien. Cras interdum libero purus, ac eleifend erat varius et. Vivamus cursus dignissim lorem, at egestas nulla hendrerit et. Vivamus rhoncus metus tincidunt dolor lacinia sagittis. Nullam vel tellus arcu. Nullam efficitur orci quis tempor gravida. Sed augue neque, molestie at nisi non, vulputate efficitur libero. Etiam ac congue turpis, quis egestas erat. Donec maximus nulla at porta malesuada. Mauris pellentesque leo ex, nec viverra quam pulvinar sed. Maecenas at dignissim arcu, vel placerat purus.
+        </p>
+    </div>
+
+    <div class="thumbnail-grid">
+        <img src="Images/G63.jpg" onclick="openLightbox(this.src)" alt="AMG G 63">
+        <img src="Images/GLS63.jpg" onclick="openLightbox(this.src)" alt="AMG GLS 63">
+        <img src="Images/GLS600.jpg" onclick="openLightbox(this.src)" alt="Maybach GLS 600">
+        <img src="Images/GT63.jpg" onclick="openLightbox(this.src)" alt="AMG GT 63 S E Performance">
+        <img src="Images/S63.jpg" onclick="openLightbox(this.src)" alt="AMG S 63">
+        <img src="Images/SL63.jpg" onclick="openLightbox(this.src)" alt="AMG SL 63 S E Performance">
+    </div>
+</main>
+	
+	
+	
+	<footer>
+	<div class="footer-column left">
+    	<h3>Socials</h3>
+    	<div class="social-icons">
+        	<a href="#"><img src="images/x-icon.png" alt="X"></a>
+        	<a href="#"><img src="images/yt-icon.png" alt="YouTube"></a>
+        	<a href="#"><img src="images/fb-icon.png" alt="Facebook"></a>
+        	<a href="#"><img src="images/ig-icon.png" alt="Instagram"></a>
+    	</div>
+	</div>
+    <div class="footer-column center">
+        <h2 class="logo">TOP SPEC RENTALS</h2>
+        <div class="footer-nav">
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy</a>
+            <a href="#">Legal</a>
+        </div>
+        <p class="copyright">2026 &copy; TOP SPEC RENTALS LLC All Rights Reserved</p>
+    </div>
+    <div class="footer-column right">
+        <h3>Contact</h3>
+        <p>+1 (333) 333 3333</p>
+        <p>support@topspecrentals.com</p>
+        <p>1200 17th Street, Floor 15,</p>
+        <p>Denver, CO 80202, USA</p>
+	</div>
+</footer>
+<script>
+    const logo = document.getElementById('logo-button');
+    const menu = document.getElementById('nav-menu');
+    logo.addEventListener('click', () => {
+        if (window.innerWidth <= 1100) {
+            if (!menu.classList.contains('mobile-active')) {
+                menu.classList.add('mobile-active');
+                void menu.offsetWidth; 
+                menu.style.transition = 'opacity 0.4s ease, visibility 0.4s';
+                menu.style.opacity = '1';
+                menu.style.visibility = 'visible';
+            } else {
+                closeSubPanel();
+                menu.style.opacity = '0';
+                menu.style.visibility = 'hidden';
+                setTimeout(() => {
+                    menu.classList.remove('mobile-active');
+                }, 400);
+            }
+        } else {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    });
+    document.querySelectorAll('.nav-item-link').forEach(link => {
+        link.addEventListener('click', (e) => {
+            if (window.innerWidth <= 1100) {
+                const text = link.innerText.toLowerCase();
+                if (text === 'vehicles' || text === 'services') {
+                    e.preventDefault();
+                    const panel = document.getElementById(`mobile-${text}-panel`);
+                    if (panel) panel.classList.add('active');
+                }
+            }
+        });
+    });
+    function closeSubPanel() {
+        document.querySelectorAll('.mobile-slide-overlay').forEach(p => {
+            p.classList.remove('active');
+        });
+    }
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 1100) {
+            menu.classList.remove('mobile-active');
+            menu.style.opacity = '';
+            menu.style.visibility = '';
+            closeSubPanel();
+        }
+    });
+</script>
+	
+<script>
+    let currentIndex = 0;
+    
+    function moveSlide(direction) {
+        const track = document.querySelector('.carousel-track');
+        const slides = document.querySelectorAll('.slide');
+        const slideWidth = slides[0].clientWidth; 
+        
+        currentIndex = (currentIndex + direction + slides.length) % slides.length;
+        track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+    }
+
+    function openLightbox(src) {
+        const overlay = document.createElement('div');
+        overlay.style = "position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.9);z-index:10000;display:flex;align-items:center;justify-content:center;cursor:pointer;";
+        overlay.innerHTML = `<img src="${src}" style="max-width:90%;max-height:90%;box-shadow:0 0 20px rgba(255,255,255,0.2);">`;
+        overlay.onclick = () => document.body.removeChild(overlay);
+        document.body.appendChild(overlay);
+    }
+</script>
+
+</body>
+</html>
